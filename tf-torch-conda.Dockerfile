@@ -38,6 +38,7 @@ RUN conda activate DL && pip install --upgrade --no-cache-dir pip && \
     sympy \
     seaborn \
     tensorflow${TF_VERSION:+==${TF_VERSION}} \
+    vectorbt \
     tqdm && \
     pip cache purge && \
     # Set path of python packages
