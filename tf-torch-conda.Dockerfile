@@ -1,4 +1,4 @@
-FROM jlee462/dockerdl:conda
+FROM jlee462/vectorbtdockerdl:conda
 
 ARG PYTHON_VER=3.10
 # Change to your user
