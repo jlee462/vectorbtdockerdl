@@ -97,6 +97,6 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
-          repository: matifali/dockerdl
+          repository: jlee462/vectorbtdockerdl
           short-description: ${{ github.event.repository.description }}
           readme-filepath: README.md
