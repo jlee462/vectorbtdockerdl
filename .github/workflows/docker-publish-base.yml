@@ -34,7 +34,7 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: |
-            matifali/dockerdl-base
+            jlee462/vectorbtdockerdl-base
           tags: |
             type=raw,value=latest
           labels: |
