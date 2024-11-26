@@ -70,6 +70,7 @@ RUN pip install --upgrade --no-cache-dir pip setuptools wheel && \
     scikit-learn \
     sympy \
     seaborn \
+    vectorbt \
     tqdm && \
     pip cache purge && \
     # Set path of python packages
