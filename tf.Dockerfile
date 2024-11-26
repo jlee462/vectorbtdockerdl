@@ -1,4 +1,4 @@
-FROM matifali/dockerdl-base:latest
+FROM jlee462/vectorbtdockerdl-base:latest
 # Install as user 1000
 USER 1000
 # Shell
